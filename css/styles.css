@@ -674,6 +674,8 @@ button:focus {
 	color: #757575;
 }
 
+/* -------------MODAL---------------- */
+
 .backdrop {
 	position: fixed;
 	top: 0;
@@ -722,3 +724,103 @@ button.btn-modal {
 	visibility: hidden;
 	pointer-events: none;
 }
+.modal-title{
+	margin: 0;
+margin-bottom: 12px;
+
+	font-weight: 700;
+		font-size: 20px;
+		line-height: 1.15;
+		text-align: center;
+		letter-spacing: 0.03em;
+	
+		color: #212121;
+}
+
+.modal-field{
+	display: flex;
+	flex-direction: column;
+	width: 528px;
+		height: 581px;
+		margin-left: auto;
+		margin-right: auto;
+	padding: 40px;
+}
+
+.modal-field input{
+	margin-bottom: 10px;
+	width: 100%;
+	height: 40px;
+
+	border: 1px solid #2196F3;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+		border-radius: 4px;
+}
+
+.modal-field label{
+margin-bottom: 4px;
+
+	font-weight: 400;
+		font-size: 12px;
+		line-height: 1.17;
+		letter-spacing: 0.01em;
+			color: #757575;
+
+}
+
+textarea{
+	resize: none;
+	margin-bottom: 20px;
+	padding: 20px 16px 12px 16px;
+	width: 100%;
+	height: 120px; 
+	border: 1px solid rgba(33, 33, 33, 0.2);
+		border-radius: 4px;
+}
+
+.modal-checkbox{
+		margin-bottom: 30px;
+		}
+
+	.modal-checkbox label{
+		display: flex;
+		align-items: center;
+font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
+	}
+
+	.modal-checkbox a{
+		margin-left: 4px;
+		color: rgba(33, 150, 243, 1);
+	}
+
+.modal-field input[type="checkbox"]{
+	width: 15px;
+	height: 16px;
+	margin-bottom: 0;
+	margin-right: 8px;
+
+	
+	}
+
+.modal-submit{
+	margin-left: auto;
+	margin-right: auto;
+		padding: 10px 52px;
+	width: 200px;
+		height: 50px;
+			
+		background: #2196F3;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
+		border: none;
+		font-weight: 700;
+			font-size: 16px;
+			line-height: 1.88;
+			letter-spacing: 0.06em;
+			color: #FFFFFF;
+}
+
